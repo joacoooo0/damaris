@@ -48,8 +48,8 @@ const Welcome: React.FC = () => {
     if (isTimeUp) {
       // Ruta al archivo PDF en la carpeta "public"
       const link = document.createElement("a");
-      link.href = "/info-iacym-madrid.pdf"; // Cambiado a la ruta correcta
-      link.download = "felizano.pdf";
+      link.href = "/Querida_Damaris.pdf"; // Cambiado a la ruta correcta
+      link.download = "Querida_Damaris.pdf";
       link.click();
     } else {
       setShowAlert(true);
