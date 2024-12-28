@@ -15,7 +15,7 @@ const Welcome: React.FC = () => {
     const downloadButton = document.getElementById(
       "download-button"
     ) as HTMLButtonElement;
-    const endTime = new Date("2025-01-01T00:00:00-05:00").getTime();
+    const endTime = new Date("2024-12-27T00:00:00-05:00").getTime();
 
     function updateCountdown() {
       const now = new Date().getTime();
