@@ -22,7 +22,7 @@ const Welcome: React.FC = () => {
       const distance = endTime - now;
 
       if (distance <= 0) {
-        countdownElement.textContent = "¡Descarga disponible!";
+        countdownElement.textContent = "Presiona la carta";
         downloadButton.disabled = false;
         setIsTimeUp(true);
         clearInterval(interval);
